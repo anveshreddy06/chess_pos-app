@@ -13,7 +13,7 @@ r2 = [2, 4, 6, 8]
 c1 = [1, 3, 5, 7]
 c2 = [2, 4, 6, 8]
 
-st.image(r'Screenshot 2026-04-06 162951.png")
+st.image('Screenshot 2026-04-06 162951.png")
 
 if (pos1 in r1 and pos2 in c1) or (pos1 in r2 and pos2 in c2):
     st.write("The position is black")
